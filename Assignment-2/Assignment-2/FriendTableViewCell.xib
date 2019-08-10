@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="147" id="KGk-i7-Jjw" customClass="FriendTableViewCell" customModule="Assignment_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CSS-Ne-iCS">
+                        <rect key="frame" x="0.0" y="8" width="413" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lixian" translatesAutoresizingMaskIntoConstraints="NO" id="b5E-Ma-dcK">
+                                <rect key="frame" x="16" y="16" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="1V6-f7-0QJ"/>
+                                    <constraint firstAttribute="height" constant="60" id="zNT-tB-Z0h"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elwin Sharwill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPV-an-aqg">
+                                <rect key="frame" x="92" y="16" width="114.5" height="20"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edinburgh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVM-vt-BHU">
+                                <rect key="frame" x="92" y="44" width="63" height="14"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold Foodies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9a-hN-tX7">
+                                <rect key="frame" x="92" y="66" width="99.5" height="20"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <color key="textColor" name="GoldColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9y-dB-yhy">
+                                <rect key="frame" x="319" y="16" width="70" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Follow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QfJ-iJ-cxY">
+                                        <rect key="frame" x="8" y="8" width="57" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="AlreadyFriendColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="HQS-O8-35R"/>
+                                    <constraint firstAttribute="height" constant="40" id="JJk-8j-Cvb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QVM-vt-BHU" firstAttribute="leading" secondItem="qPV-an-aqg" secondAttribute="leading" id="90R-Hz-wqJ"/>
+                            <constraint firstItem="b5E-Ma-dcK" firstAttribute="leading" secondItem="CSS-Ne-iCS" secondAttribute="leading" constant="16" id="JZj-IU-x8A"/>
+                            <constraint firstItem="QVM-vt-BHU" firstAttribute="top" secondItem="qPV-an-aqg" secondAttribute="bottom" constant="8" id="KDA-Oo-AKs"/>
+                            <constraint firstItem="b5E-Ma-dcK" firstAttribute="top" secondItem="CSS-Ne-iCS" secondAttribute="top" constant="16" id="PJL-R5-ik7"/>
+                            <constraint firstItem="D9a-hN-tX7" firstAttribute="leading" secondItem="qPV-an-aqg" secondAttribute="leading" id="RE0-Qm-27D"/>
+                            <constraint firstAttribute="height" constant="100" id="c0g-Jt-bhJ"/>
+                            <constraint firstItem="b5E-Ma-dcK" firstAttribute="leading" secondItem="CSS-Ne-iCS" secondAttribute="leading" constant="16" id="cGJ-Rl-hFs"/>
+                            <constraint firstItem="V9y-dB-yhy" firstAttribute="top" secondItem="b5E-Ma-dcK" secondAttribute="top" id="gQx-5W-IeW"/>
+                            <constraint firstItem="D9a-hN-tX7" firstAttribute="top" secondItem="QVM-vt-BHU" secondAttribute="bottom" constant="8" id="gSt-MW-fqF"/>
+                            <constraint firstItem="qPV-an-aqg" firstAttribute="top" secondItem="b5E-Ma-dcK" secondAttribute="top" id="i9J-SP-I9x"/>
+                            <constraint firstItem="qPV-an-aqg" firstAttribute="leading" secondItem="b5E-Ma-dcK" secondAttribute="trailing" constant="16" id="wrw-Dj-0jI"/>
+                            <constraint firstAttribute="trailing" secondItem="V9y-dB-yhy" secondAttribute="trailing" constant="24" id="xkc-aA-FtF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="CSS-Ne-iCS" secondAttribute="trailing" id="6PF-Fh-1ja"/>
+                    <constraint firstItem="CSS-Ne-iCS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Fav-H4-vxs"/>
+                    <constraint firstAttribute="bottom" secondItem="CSS-Ne-iCS" secondAttribute="bottom" constant="8" id="tv4-of-qOb"/>
+                    <constraint firstItem="CSS-Ne-iCS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="x7x-OQ-36q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivUserImage" destination="b5E-Ma-dcK" id="hGn-fw-u1o"/>
+                <outlet property="viewFollow" destination="V9y-dB-yhy" id="wRh-a1-asR"/>
+            </connections>
+            <point key="canvasLocation" x="64.492753623188406" y="102.45535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="lixian" width="900" height="1200"/>
+        <namedColor name="AlreadyFriendColor">
+            <color red="0.1803921568627451" green="0.54509803921568623" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GoldColor">
+            <color red="0.74117647058823533" green="0.56470588235294117" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
